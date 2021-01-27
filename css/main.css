@@ -2,9 +2,95 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 body{
-  font-family: sans-serif;  
+  font-family: sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+header{
+  height: 25%;
+  margin-bottom: 1%;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: #0c325a;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+}
+
+.logobox{
+  width: 15%;
+}
+
+.logobox #logo{
+  width: 91%;
+}
+
+#mainnav{
+  width: 100%;
+  margin: 0;
+  line-height: 10vh;
+}
+
+#mainnav li{
+  display: inline-block;
+  margin-right: 2%;
+}
+
+#mainnav li a{
+  text-decoration: none;
+  color: white;
+  font-size: 0.9vw;
+  display: inline-block;
+}
+
+main{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#jumbotron{
+  background-image: url("../img/background-header.png");
+  width: 100%;
+  height: 645px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+
+.txtbox{
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  width: 50%;
+}
+
+.txtbox h2, .txtbox p{
+  color: white;
+}
+
+
+.title{
+  font-size: 1.7vw;
+  margin-bottom: 5vh;
+}
+
+.subtitle{
+  color: white;
+  font-weight: lighter;
+  font-size: 1.5vw;
 }
