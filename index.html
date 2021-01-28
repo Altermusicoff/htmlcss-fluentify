@@ -4,18 +4,15 @@
     <meta charset="utf-8">
     <title>Fluentify</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
   </head>
   <body>
 
-    <header>
-
-        <nav id="mainnav">
+    <header class="row">
+        <nav id="navleft">
           <ul>
-            <li>
-              <div class="logobox">
-                <img src="img/logo.svg" alt="logo fluentify">
-              </div>
-            </li>
+            <li><img id="logo"src="img/logo.svg" alt="logo fluentify"></li>
             <li>
               <a href="#">IL METODO</a>
             </li>
@@ -28,34 +25,70 @@
             <li>
               <a href="#">SOLUZIONI AZIENDALI</a>
             </li>
-            <li>
-              <a href="#">DIVENTA UN TUTOR</a>
-            </li>
-            <li>
-              <button type="button" name="button">LOGIN</button>
-            </li>
-            <li>
-              <button type="button" name="button">STRUTTURA UN PIANO</button>
-            </li>
           </ul>
         </nav>
+            <nav class="interaction">
+              <ul>
+                <li>
+                  <a href="#">DIVENTA UN TUTOR</a>
+                </li>
+                <li>
+                  <button class="login" type="button" name="button">LOGIN</button>
+                </li>
+                <li>
+                  <button class="greenb" type="button" name="button">STRUTTURA UN PIANO</button>
+                </li>
+              </ul>
+            </nav>
 
-        <div id="jumbotron">
-          <div class="overlay">
-          </div>
-          <div class="txtbox">
-            <h2>Pretium ac placerat dui interdum nunc in eros urna morbi</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
 
-        <div class="title">
-          <h1>Leadership</h1>
-          <div class="subtitle">
-            Fertenum urna a libero tempus
-          </div>
-        </div>
+              <div id="bgheader">
+                <div class="bgtitle">
+                  <h1>Scegli l'inglese studiato per i professionisti</h1>
+                  <button class="greenb" type="button" name="button">STRUTTURA UN PIANO</button>
+                </div>
+              </div>
+
     </header>
+
+    <main>
+
+      <div class="row">
+        <div class="align">
+          <div class="aside">
+            <div class="imagebox">
+              <img src="img/profile.svg" alt="immagine pianta soldi">
+              <div class="overlay"></div>
+            </div>
+            <h4>Lorem</h4><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+          </div>
+
+          <div class="central">
+            <div class="imagebox">
+              <img src="img/computer.svg" alt="immagine caffè caldo">
+              <div class="overlay"></div>
+            </div>
+            <h4>Lorem</h4><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor </p>
+          </div>
+
+          <div class="aside">
+            <div class="imagebox">
+              <img src="img/doc.svg" alt="immagine pianta soldi">
+              <div class="overlay"></div>
+           </div>
+           <h4>Lorem</h4><br>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </main>
 
   </body>
 </html>
